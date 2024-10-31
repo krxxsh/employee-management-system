@@ -1,5 +1,5 @@
 Employee-Management-System
-An Employee Management System using TypeScript, HTML and CSS. It has following properties:
+An Employee Management System using JavaScript, HTML and CSS. It has following properties:
 
 Clicking on Create Employee Type button displays Create Employee Type form and allows the system to add new type of employee. Clicking on cancel button hides the respective form.
 
