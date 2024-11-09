@@ -15,4 +15,3 @@ Selecting an employee from the Employee List enables Edit and Remove button. Cli
 
 Clicking on Add button from the Add Employee list, add the employee in the respective tab.
 
-Clicking on Undo button removes the last added employee. Undo action can be perform for the last three added employees.
