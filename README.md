@@ -12,32 +12,7 @@ This is a simple Employee Management System implemented in Java. It allows you t
 - Java Development Kit (JDK) 8 or higher
 - MySQL Server
 - JDBC Driver for MySQL
-
-## Setup Instructions
-
-1. **Clone the repository** or download the source code.
-
-2. **Create a MySQL database**:
-   - Open MySQL and run the following SQL command to create the database:
-     ```sql
-     CREATE DATABASE mydb;
-     ```
-   - Use the database:
-     ```sql
-     USE mydb;
-     ```
-
-3. **Create the Employee table**:
-   - Run the SQL script located in `Data.sql` to create the necessary table:
-     ```sql
-     CREATE TABLE employee (
-         id INT PRIMARY KEY AUTO_INCREMENT,
-         name VARCHAR(100) NOT NULL,
-         designation VARCHAR(50) NOT NULL,
-         salary DECIMAL(10, 2) NOT NULL
-     );
-     ```
-
+- 
 4. **Configure Database Connection**:
    - Open `DatabaseConnection.java` and update the following constants with your MySQL database credentials:
      ```java
